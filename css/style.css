@@ -1,4 +1,25 @@
 @charset "utf-8";
+/* カスタムプロパティ(CSS変数) */
+:root{
+--portfolio-black: #000000;
+--portfolio-white: #FFFFFF;
+--portfolio-green: #;
+--portfolio-light-green:#;
+--portfolio-gray: #;
+
+
+}
+
+
+
+
+
+
 body{
-    color: aqua;
+    background-color: pink;
+    font-size: 16px;
+}
+
+li:nth-child(4){
+    color: red;
 }
